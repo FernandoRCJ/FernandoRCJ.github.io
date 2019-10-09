@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portifólio</title>
+</head>
+<style>
+    body{
+        margin:0;
+    }
+#topmenu {
+    display:flex;
+    background-color: darkslategray;
+    margin:0;
+}
+
+#topmenu li{
+color:gainsboro;
+text-decoration: none;
+display:block;
+padding: 15px;
+}
+
+#topmenu li:first-child{
+    margin-right: auto;
+}
+
+.section1{
+    display:flex;
+    height: 100vh;
+    background-color: darkcyan;
+}
+
+.centralize{
+    margin:auto;
+    text-align: center;
+}
+
+.section2{
+    display:flex;
+    background-color: darkgray;
+    height: 33vh;
+}
+
+.imagemExp{
+    width: 15vw;
+    height: 15vw;
+    padding-left: 15px;
+}
+</style>
+<body>
+    <nav>
+        <ul  id="topmenu">
+            <li>Nome</li>
+            <li>Quem sou eu</li>
+            <li>Experiências</li>
+            <li>Contato</li>
+        </ul>
+    </nav>
+    <div class="section1">
+        <div class="centralize">
+            <h1>Fernando</h1>
+            <button>Experiências</button>
+        </div>
+    </div>
+    <div id="experiencias" class="section2 centralize">
+        <table>
+            <tr>
+                <td width="40%"><img class="imagemExp" src="https://icon2.kisspng.com/20180515/aie/kisspng-amateur-radio-operator-clip-art-5afb8322b1c107.0052795315264325467281.jpg" alt=""></td>
+                <td width="60%">Descrição Experiencias</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
